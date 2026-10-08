@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+/* Dark Modal Card Container */
+.custom-dark-modal {
+  background-color: #1e293b !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 16px !important;
+  color: #f8fafc !important;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Modal Header */
+.custom-dark-modal .modal-header {
+  border-bottom: 1px solid #334155 !important;
+  padding: 1.25rem 1.5rem;
+}
+
+.custom-dark-modal .modal-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+/* Modal Body */
+.custom-dark-modal .modal-body {
+  padding: 1.5rem;
+}
+
+.custom-dark-modal .form-label {
+  color: #cbd5e1;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+/* Dark Input Styling */
+.custom-input {
+  background-color: #0f172a !important;
+  border: 1px solid #334155 !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 0.75rem 1rem !important;
+  font-size: 0.95rem !important;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-input::placeholder {
+  color: #475569 !important;
+}
+
+.custom-input:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25) !important;
+}
+
+.custom-text {
+  color: #94a3b8 !important;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+/* Modal Footer */
+.custom-dark-modal .modal-footer {
+  border-top: 1px solid #334155 !important;
+  padding: 1rem 1.5rem;
+  gap: 0.5rem;
+}
+
+/* Action Buttons */
+.btn-secondary-custom {
+  background-color: transparent !important;
+  border: 1px solid #475569 !important;
+  color: #94a3b8 !important;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary-custom:hover {
+  background-color: #334155 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary-custom {
+  background-color: #2563eb !important;
+  border: none !important;
+  color: #ffffff !important;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+  transition: all 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: #1d4ed8 !important;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.45);
+}

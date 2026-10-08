@@ -1,0 +1,48 @@
+{
+  "hash": "3fd10919",
+  "configHash": "4e976060",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "4f6737b7",
+  "optimized": {
+    "react-dom": {
+      "src": "../../../../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "34a6edb1",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../../../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e0c1f498",
+      "needsInterop": true
+    },
+    "react/compiler-runtime": {
+      "src": "../../../../../node_modules/react/compiler-runtime.js",
+      "file": "react_compiler-runtime.js",
+      "fileHash": "03aa56d9",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../../../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "80c464f2",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../../../../node_modules/react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "fa33895f",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "react-jWGleFzq": {
+      "file": "react-jWGleFzq.js",
+      "isDynamicEntry": false
+    },
+    "rolldown-runtime-BvCyGRYZ": {
+      "file": "rolldown-runtime-BvCyGRYZ.js",
+      "isDynamicEntry": false
+    }
+  }
+}
